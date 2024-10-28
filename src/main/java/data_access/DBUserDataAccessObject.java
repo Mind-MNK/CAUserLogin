@@ -19,7 +19,7 @@ import use_case.signup.SignupUserDataAccessInterface;
 /**
  * The DAO for user data.
  */
-public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
+public abstract class DBUserDataAccessObject implements SignupUserDataAccessInterface,
                                                LoginUserDataAccessInterface,
                                                ChangePasswordUserDataAccessInterface {
     private static final int SUCCESS_CODE = 200;
